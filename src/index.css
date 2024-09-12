@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Aps {
+  background-image: url(/src/img/pexels-stefanstefancik-91217.jpg);
+  background-position: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+}
+.inp {
+  background-color: rgba(99, 99, 99, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.17);
+  box-shadow: 0 0 0px 4px rgba(132, 115, 115, 0.28);
+  border-radius: 30px;
+}
+.back {
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
+}
+.count {
+  background: rgba(230, 230, 230, 0.12);
+}
+.shade {
+  box-shadow: 2px 3px 18px rgba(0, 0, 0, 0.9);
+}
